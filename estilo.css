@@ -1,0 +1,80 @@
+/* =======================================
+   CONFIGURAÇÃO DAS COLUNAS COM FLEXBOX
+======================================= */
+
+.principal{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* =======================================
+   AGRUPAMENTO DE SELETORES
+======================================= */
+
+.coluna1,
+.coluna2,
+.coluna3{
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+/* =======================================
+   ESTILO ESPECÍFICO DE CADA COLUNA
+======================================= */
+
+.coluna1{
+    flex-grow: 1;
+    background-color: #34495e;
+}
+
+.coluna2{
+    flex-grow: 1;
+    background-color: #8e44ad;
+}
+
+.coluna3{
+    flex-grow: 1;
+    background-color: #16a085;
+}
+
+/* =======================================
+   TÍTULOS
+======================================= */
+
+h2{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+/* =======================================
+   PARÁGRAFOS
+======================================= */
+
+p{
+    color: white;
+    font-size: 1em;
+    text-align: justify;
+}
+
+/* =======================================
+   CLASSE DAS IMAGENS
+======================================= */
+
+.imagem{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* =======================================
+   CLASSE DAS FONTES
+======================================= */
+
+.fonte{
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8em;
+}
